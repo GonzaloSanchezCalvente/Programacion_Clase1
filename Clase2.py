@@ -38,7 +38,7 @@ def ejercicio_4():
     
     caracter = input("Introduce un caracter: ")
     
-    if caracter == "a" or "e" or "i" or "o" or "u":
+    if caracter == "a" or caracter == "e" or caracter == "i" or caracter == "o" or caracter == "u":
         print(f"{caracter} es vocal")
     else:
         print(f"{caracter} no es vocal")
