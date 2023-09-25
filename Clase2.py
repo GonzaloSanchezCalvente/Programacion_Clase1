@@ -20,7 +20,7 @@ def ejercicio_2():
     
     dia = input("introduce dia de la semana: ")
     
-    if dia == "viernes" or  "sabado" or  "domingo":
+    if dia == "viernes" or  dia == "sabado" or  dia == "domingo":
         print(f"{dia} Es fin de semana")
     else:
         print(f"{dia} No es fin de semana") 
@@ -60,4 +60,5 @@ ejercicio_2()
 ejercicio_3()
 ejercicio_4()
 ejercicio_5()
+
         
